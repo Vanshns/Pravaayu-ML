@@ -287,4 +287,4 @@ print(final_rules.head(20))
 
 final_rules.to_csv('final_actionable_insights_clean.csv', index=False)
 
-print("\n✅ Saved: final_actionable_insights_clean.csv")
+print("\n Saved: final_actionable_insights_clean.csv")
