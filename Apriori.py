@@ -146,7 +146,7 @@ df = (df > 0).astype(bool)
 # =========================
 frequent_itemsets = apriori(
     df,
-    min_support=0.12,   # slightly higher → removes noise
+    min_support=0.12,
     use_colnames=True
 )
 
@@ -160,32 +160,28 @@ rules = association_rules(
 )
 
 # =========================
-# 4. CORE FILTER (IMPORTANT)
+# 4. CORE FILTER
 # =========================
 def filter_actionable_rules(rules):
     rules = rules.copy()
 
-    # Length constraints
     rules['ant_len'] = rules['antecedents'].apply(len)
     rules['con_len'] = rules['consequents'].apply(len)
 
-    # Convert to readable text
     rules['if'] = rules['antecedents'].apply(lambda x: ', '.join(list(x)))
     rules['then'] = rules['consequents'].apply(lambda x: ', '.join(list(x)))
 
-    # --- HARD FILTERS ---
     filtered = rules[
-        (rules['confidence'] >= 0.75) &     # reliable
-        (rules['lift'] >= 1.5) &            # meaningful association
-        (rules['lift'] <= 5.0) &            # remove overfit spikes
-        (rules['support'] >= 0.12) &        # avoid rare noise
-        (rules['ant_len'] <= 2) &           # simple rules only
+        (rules['confidence'] >= 0.75) &
+        (rules['lift'] >= 1.5) &
+        (rules['lift'] <= 5.0) &
+        (rules['support'] >= 0.12) &
+        (rules['ant_len'] <= 2) &
         (rules['con_len'] <= 2) &
-        (rules['confidence'] < 0.98)        # remove "perfect traps"
+        (rules['confidence'] < 0.98)
     ]
 
     return filtered
-
 
 clean_rules = filter_actionable_rules(rules)
 
@@ -207,7 +203,6 @@ def remove_redundant(df):
             exist_ant = set(existing['if'].split(', '))
             exist_con = set(existing['then'].split(', '))
 
-            # If simpler rule already explains it
             if exist_ant.issubset(current_ant) and exist_con == current_con:
                 redundant = True
                 break
@@ -217,15 +212,12 @@ def remove_redundant(df):
 
     return pd.DataFrame(selected)
 
-
 final_rules = remove_redundant(clean_rules)
 
 # =========================
 # 6. REMOVE TRIVIAL RULES
 # =========================
 def remove_trivial(df):
-    df = df.copy()
-
     def is_trivial(row):
         ant = set(row['if'].split(', '))
         con = set(row['then'].split(', '))
@@ -233,11 +225,55 @@ def remove_trivial(df):
 
     return df[~df.apply(is_trivial, axis=1)]
 
-
 final_rules = remove_trivial(final_rules)
 
 # =========================
-# 7. SORT & EXPORT
+# 7. REMOVE BIDIRECTIONAL DUPLICATES
+# =========================
+def remove_bidirectional(df):
+    seen = set()
+    result = []
+
+    for _, row in df.iterrows():
+        ant = frozenset(row['if'].split(', '))
+        con = frozenset(row['then'].split(', '))
+
+        if (con, ant) in seen:
+            continue
+
+        seen.add((ant, con))
+        result.append(row)
+
+    return pd.DataFrame(result)
+
+final_rules = remove_bidirectional(final_rules)
+
+# =========================
+# 8. REDUCE SYMMETRY OVERLOAD
+# =========================
+def is_symmetry(row):
+    return (
+        ("knee_l" in row['if'] and "knee_r" in row['then']) or
+        ("knee_r" in row['if'] and "knee_l" in row['then'])
+    )
+
+final_rules['is_symmetry'] = final_rules.apply(is_symmetry, axis=1)
+
+# Keep only top symmetry rules
+symmetry_rules = final_rules[final_rules['is_symmetry']].head(10)
+non_symmetry_rules = final_rules[~final_rules['is_symmetry']]
+
+final_rules = pd.concat([non_symmetry_rules, symmetry_rules])
+
+# =========================
+# 9. FORCE SIMPLE OUTPUT (IMPORTANT)
+# =========================
+final_rules = final_rules[
+    final_rules['then'].apply(lambda x: len(x.split(', ')) == 1)
+]
+
+# =========================
+# 10. FINAL SORT & EXPORT
 # =========================
 final_rules = final_rules.sort_values(
     by=['lift', 'confidence'],
@@ -246,9 +282,9 @@ final_rules = final_rules.sort_values(
 
 final_rules = final_rules[['if', 'then', 'support', 'confidence', 'lift']]
 
-print("\n=== ACTIONABLE CLINICAL INSIGHTS ===")
+print("\n=== FINAL ACTIONABLE INSIGHTS ===")
 print(final_rules.head(20))
 
-final_rules.to_csv('actionable_clinical_insights.csv', index=False)
+final_rules.to_csv('final_actionable_insights_clean.csv', index=False)
 
-print("\n✅ Saved: actionable_clinical_insights.csv")
+print("\n✅ Saved: final_actionable_insights_clean.csv")
