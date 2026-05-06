@@ -939,7 +939,12 @@ def process_patients(patients: list) -> pd.DataFrame:
 
     for patient in patients:
         result = transform_full(patient)   # 👈 uses your function
-        rows.append(result)
+        # rows.append(result)
+        rows.append({
+            "patient_name": patient.get("patient_name", "Unknown"),
+            "patient_index": len(rows),  # optional but useful
+            **result
+        })
 
     df = pd.DataFrame(rows)
     df = df.fillna(0)

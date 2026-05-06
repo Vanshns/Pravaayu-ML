@@ -131,6 +131,7 @@
 # final_pruned_logic = prune_redundant_rules(final_logic)
 # final_pruned_logic.to_csv('final_clinical_logic_pruned.csv', index=False)
 
+# Apriori.py
 import pandas as pd
 import numpy as np
 from mlxtend.frequent_patterns import apriori, association_rules
@@ -138,7 +139,19 @@ from mlxtend.frequent_patterns import apriori, association_rules
 # =========================
 # 1. LOAD & PREP DATA
 # =========================
-df = pd.read_csv('pruned_clinical_data.csv').drop(['age', 'weight'], axis=1)
+# df = pd.read_csv('pruned_clinical_data.csv').drop(['age', 'weight'], axis=1)
+# df = (df > 0).astype(bool)
+df = pd.read_csv('pruned_clinical_data.csv')
+
+# Drop non-feature columns
+NON_FEATURE_COLS = ['patient_name', 'patient_index', 'age', 'weight']
+
+df = df.drop(columns=[col for col in NON_FEATURE_COLS if col in df.columns])
+
+# Keep only numeric columns (extra safety)
+df = df.select_dtypes(include=[np.number])
+
+# Convert to boolean
 df = (df > 0).astype(bool)
 
 # =========================
