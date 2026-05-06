@@ -24,6 +24,7 @@ def run_step(script_name):
 # =========================
 
 pipeline = [
+    "NewdDataFetch.py",
     "Pravaayu_TransformerScript.py",
     "Pruning.py",
     "Apriori.py"
