@@ -2,20 +2,20 @@ if,then,support,confidence,lift
 "knee_l_pain_stairclimbing, knee_l_reason_natural",knee_l_pain_lowsitting,0.1201923076923077,0.78125,4.924242424242425
 knee_r_pain_lowsitting,knee_r_pain_stairclimbing,0.1201923076923077,0.9615384615384616,4.761904761904762
 knee_r_pain_standing,knee_r_pain_walking,0.1346153846153846,0.9655172413793103,4.365817091454272
-"knee_r_exam_tenderness_knee, knee_r_pain_walking",knee_r_pain_stairclimbing,0.1201923076923077,0.8620689655172413,4.2692939244663375
-"knee_r_duration_val, medication_none",knee_r_pain_walking,0.125,0.9285714285714286,4.198757763975156
+"knee_r_pain_walking, knee_r_exam_tenderness_knee",knee_r_pain_stairclimbing,0.1201923076923077,0.8620689655172413,4.2692939244663375
+"medication_none, knee_r_duration_val",knee_r_pain_walking,0.125,0.9285714285714286,4.198757763975156
 "knee_r_pain_stairclimbing, knee_r_diag_oa_knee",knee_r_reason_natural,0.1346153846153846,0.9032258064516129,4.084151472650771
-"knee_r_exam_tenderness_knee, knee_r_pain_walking",knee_r_reason_natural,0.125,0.896551724137931,4.053973013493254
+"knee_r_pain_walking, knee_r_exam_tenderness_knee",knee_r_reason_natural,0.125,0.896551724137931,4.053973013493254
 "knee_r_exam_tenderness_knee, knee_r_reason_natural",knee_r_pain_walking,0.125,0.896551724137931,4.053973013493254
-"knee_l_exam_creps_left, knee_l_pain_lowsitting",knee_l_pain_stairclimbing,0.12980769230769232,0.9000000000000001,3.9829787234042557
-"knee_r_pain_stairclimbing, tongue_sama",knee_r_reason_natural,0.13942307692307693,0.8787878787878789,3.9736495388669306
-"knee_l_pain_walking, knee_l_pain_lowsitting",knee_l_pain_stairclimbing,0.125,0.896551724137931,3.967718268525312
-"knee_r_pain_stairclimbing, knee_r_pain_walking",knee_r_reason_natural,0.12980769230769232,0.870967741935484,3.9382889200561015
+"knee_l_pain_lowsitting, knee_l_exam_creps_left",knee_l_pain_stairclimbing,0.12980769230769232,0.9000000000000001,3.9829787234042557
+"tongue_sama, knee_r_pain_stairclimbing",knee_r_reason_natural,0.13942307692307693,0.8787878787878789,3.9736495388669306
+"knee_l_pain_lowsitting, knee_l_pain_walking",knee_l_pain_stairclimbing,0.125,0.896551724137931,3.967718268525312
+"knee_r_pain_walking, knee_r_pain_stairclimbing",knee_r_reason_natural,0.12980769230769232,0.870967741935484,3.9382889200561015
 "knee_r_pain_stairclimbing, knee_r_reason_natural",knee_r_pain_walking,0.12980769230769232,0.870967741935484,3.9382889200561015
 "knee_r_pain_stairclimbing, knee_r_diag_oa_knee",knee_r_pain_walking,0.12980769230769232,0.870967741935484,3.9382889200561015
-"knee_r_reason_natural, knee_r_pain_walking",knee_r_pain_stairclimbing,0.12980769230769232,0.7941176470588236,3.9327731092436977
-"appetite_normal, knee_r_pain_walking",knee_r_reason_natural,0.1201923076923077,0.8620689655172413,3.8980509745127434
-"knee_l_pain_walking, knee_l_pain_lowsitting",knee_l_reason_natural,0.1346153846153846,0.9655172413793103,3.862068965517241
+"knee_r_pain_walking, knee_r_reason_natural",knee_r_pain_stairclimbing,0.12980769230769232,0.7941176470588236,3.9327731092436977
+"knee_r_pain_walking, appetite_normal",knee_r_reason_natural,0.1201923076923077,0.8620689655172413,3.8980509745127434
+"knee_l_pain_lowsitting, knee_l_pain_walking",knee_l_reason_natural,0.1346153846153846,0.9655172413793103,3.862068965517241
 "knee_l_pain_lowsitting, knee_l_duration_val",knee_l_pain_stairclimbing,0.12980769230769232,0.870967741935484,3.854495538778312
 "knee_l_pain_lowsitting, knee_l_diag_oa_knee",knee_l_reason_natural,0.1201923076923077,0.9615384615384616,3.8461538461538463
 "tongue_sama, knee_r_pain_walking",knee_r_reason_natural,0.15865384615384615,0.8461538461538461,3.8260869565217392
@@ -25,41 +25,41 @@ knee_r_pain_standing,knee_r_pain_walking,0.1346153846153846,0.9655172413793103,4
 "knee_r_duration_val, knee_r_reason_natural",knee_r_pain_stairclimbing,0.14423076923076922,0.7692307692307692,3.8095238095238093
 "knee_r_exam_creps_right, knee_r_pain_walking",knee_r_reason_natural,0.14903846153846154,0.8378378378378378,3.7884841363102235
 "knee_r_exam_creps_right, knee_r_reason_natural",knee_r_pain_walking,0.14903846153846154,0.8378378378378378,3.7884841363102235
-"knee_r_diag_oa_knee, knee_r_pain_walking",knee_r_reason_natural,0.14903846153846154,0.8378378378378378,3.7884841363102235
-"knee_r_diag_oa_knee, knee_r_reason_natural",knee_r_pain_walking,0.14903846153846154,0.8378378378378378,3.7884841363102235
+"knee_r_pain_walking, knee_r_diag_oa_knee",knee_r_reason_natural,0.14903846153846154,0.8378378378378378,3.7884841363102235
+"knee_r_reason_natural, knee_r_diag_oa_knee",knee_r_pain_walking,0.14903846153846154,0.8378378378378378,3.7884841363102235
 "knee_r_pain_stairclimbing, knee_r_exam_tenderness_knee",knee_r_pain_walking,0.1201923076923077,0.8333333333333335,3.7681159420289863
 knee_l_pain_lowsitting,knee_l_pain_stairclimbing,0.1346153846153846,0.8484848484848485,3.754996776273372
-"sex_female, knee_r_pain_walking",knee_r_pain_stairclimbing,0.1346153846153846,0.7567567567567567,3.747747747747747
+"knee_r_pain_walking, sex_female",knee_r_pain_stairclimbing,0.1346153846153846,0.7567567567567567,3.747747747747747
 "knee_r_exam_creps_right, knee_r_pain_walking",knee_r_pain_stairclimbing,0.1346153846153846,0.7567567567567567,3.747747747747747
 "knee_r_exam_creps_right, knee_r_reason_natural",knee_r_pain_stairclimbing,0.1346153846153846,0.7567567567567567,3.747747747747747
-"knee_r_diag_oa_knee, knee_r_reason_natural",knee_r_pain_stairclimbing,0.1346153846153846,0.7567567567567567,3.747747747747747
-"knee_l_exam_creps_left, knee_l_pain_lowsitting",knee_l_reason_natural,0.1346153846153846,0.9333333333333333,3.7333333333333334
+"knee_r_reason_natural, knee_r_diag_oa_knee",knee_r_pain_stairclimbing,0.1346153846153846,0.7567567567567567,3.747747747747747
+"knee_l_pain_lowsitting, knee_l_exam_creps_left",knee_l_reason_natural,0.1346153846153846,0.9333333333333333,3.7333333333333334
 "knee_l_pain_lowsitting, sex_female",knee_l_reason_natural,0.12980769230769232,0.9310344827586208,3.724137931034483
-"knee_r_pain_stairclimbing, knee_r_exam_creps_right",knee_r_pain_walking,0.1346153846153846,0.8235294117647058,3.7237851662404093
-"knee_r_pain_stairclimbing, knee_r_exam_creps_right",knee_r_reason_natural,0.1346153846153846,0.8235294117647058,3.7237851662404093
-"knee_l_exam_creps_left, knee_l_pain_lowsitting",knee_l_pain_walking,0.13942307692307693,0.9666666666666668,3.723456790123457
+"knee_r_exam_creps_right, knee_r_pain_stairclimbing",knee_r_pain_walking,0.1346153846153846,0.8235294117647058,3.7237851662404093
+"knee_r_exam_creps_right, knee_r_pain_stairclimbing",knee_r_reason_natural,0.1346153846153846,0.8235294117647058,3.7237851662404093
+"knee_l_pain_lowsitting, knee_l_exam_creps_left",knee_l_pain_walking,0.13942307692307693,0.9666666666666668,3.723456790123457
 "knee_l_pain_lowsitting, knee_l_reason_natural",knee_l_pain_walking,0.1346153846153846,0.9655172413793103,3.7190293742017873
 "sex_female, knee_r_reason_natural",knee_r_pain_stairclimbing,0.12980769230769232,0.7500000000000001,3.714285714285715
 "knee_l_pain_lowsitting, tongue_sama",knee_l_pain_walking,0.12980769230769232,0.9642857142857144,3.7142857142857144
 "knee_r_duration_val, knee_r_reason_natural",knee_r_pain_walking,0.15384615384615385,0.8205128205128206,3.7101449275362324
 "medication_none, knee_l_reason_natural",knee_l_pain_walking,0.1201923076923077,0.9615384615384616,3.7037037037037033
-"knee_r_pain_stairclimbing, tongue_sama",knee_r_pain_walking,0.12980769230769232,0.8181818181818183,3.699604743083005
+"tongue_sama, knee_r_pain_stairclimbing",knee_r_pain_walking,0.12980769230769232,0.8181818181818183,3.699604743083005
 "sex_female, knee_r_reason_natural",knee_r_pain_walking,0.13942307692307693,0.8055555555555556,3.642512077294686
 "knee_l_pain_lowsitting, knee_l_duration_val",knee_l_reason_natural,0.1346153846153846,0.9032258064516129,3.6129032258064515
 "knee_l_pain_lowsitting, knee_l_pain_stairclimbing",knee_l_pain_walking,0.125,0.9285714285714286,3.5767195767195767
 "knee_l_pain_walking, medication_none",knee_l_reason_natural,0.1201923076923077,0.8928571428571429,3.5714285714285716
-"medication_none, knee_l_diag_oa_knee",knee_l_reason_natural,0.1201923076923077,0.8928571428571429,3.5714285714285716
+"knee_l_diag_oa_knee, medication_none",knee_l_reason_natural,0.1201923076923077,0.8928571428571429,3.5714285714285716
 "knee_l_pain_lowsitting, knee_l_pain_stairclimbing",knee_l_reason_natural,0.1201923076923077,0.8928571428571429,3.5714285714285716
-"knee_r_diag_oa_knee, knee_r_exam_tenderness_knee",knee_r_pain_walking,0.125,0.787878787878788,3.5625823451910414
-"knee_r_diag_oa_knee, knee_r_exam_tenderness_knee",knee_r_reason_natural,0.125,0.787878787878788,3.5625823451910414
-"sex_female, knee_r_pain_walking",knee_r_reason_natural,0.13942307692307693,0.7837837837837838,3.54406580493537
+"knee_r_exam_tenderness_knee, knee_r_diag_oa_knee",knee_r_pain_walking,0.125,0.787878787878788,3.5625823451910414
+"knee_r_exam_tenderness_knee, knee_r_diag_oa_knee",knee_r_reason_natural,0.125,0.787878787878788,3.5625823451910414
+"knee_r_pain_walking, sex_female",knee_r_reason_natural,0.13942307692307693,0.7837837837837838,3.54406580493537
 "knee_r_exam_creps_right, knee_r_pain_walking",knee_r_diag_oa_knee,0.16346153846153846,0.9189189189189189,3.539539539539539
 "knee_r_pain_stairclimbing, sex_female",knee_r_pain_walking,0.1346153846153846,0.7777777777777778,3.5169082125603865
-"knee_r_diag_oa_knee, appetite_normal",knee_r_reason_natural,0.1346153846153846,0.7777777777777778,3.5169082125603865
-"knee_r_diag_oa_knee, tongue_sama",knee_r_reason_natural,0.16826923076923078,0.7777777777777778,3.5169082125603865
+"appetite_normal, knee_r_diag_oa_knee",knee_r_reason_natural,0.1346153846153846,0.7777777777777778,3.5169082125603865
+"tongue_sama, knee_r_diag_oa_knee",knee_r_reason_natural,0.16826923076923078,0.7777777777777778,3.5169082125603865
 knee_l_pain_lowsitting,knee_l_reason_natural,0.13942307692307693,0.8787878787878789,3.5151515151515156
-"knee_r_reason_natural, knee_r_pain_walking",knee_r_diag_oa_knee,0.14903846153846154,0.9117647058823529,3.5119825708061
-"knee_r_diag_oa_knee, knee_r_exam_creps_right",knee_r_pain_walking,0.16346153846153846,0.7727272727272727,3.4940711462450595
+"knee_r_pain_walking, knee_r_reason_natural",knee_r_diag_oa_knee,0.14903846153846154,0.9117647058823529,3.5119825708061
+"knee_r_exam_creps_right, knee_r_diag_oa_knee",knee_r_pain_walking,0.16346153846153846,0.7727272727272727,3.4940711462450595
 "knee_l_pain_stairclimbing, knee_l_reason_natural",knee_l_pain_walking,0.13942307692307693,0.90625,3.4907407407407405
 "knee_l_pain_lowsitting, knee_l_duration_val",knee_l_pain_walking,0.1346153846153846,0.9032258064516129,3.4790919952210273
 "knee_r_pain_stairclimbing, knee_r_reason_natural",knee_r_diag_oa_knee,0.1346153846153846,0.9032258064516129,3.4790919952210273
@@ -70,165 +70,165 @@ knee_l_pain_lowsitting,knee_l_reason_natural,0.13942307692307693,0.8787878787878
 "knee_r_pain_stairclimbing, urine_normal",knee_r_reason_natural,0.125,0.7647058823529411,3.4578005115089514
 "knee_l_pain_lowsitting, sex_female",knee_l_pain_walking,0.125,0.896551724137931,3.4533844189016603
 "knee_l_pain_lowsitting, urine_normal",knee_l_pain_walking,0.125,0.896551724137931,3.4533844189016603
-"knee_r_exam_tenderness_knee, knee_r_pain_walking",knee_r_diag_oa_knee,0.125,0.896551724137931,3.4533844189016603
+"knee_r_pain_walking, knee_r_exam_tenderness_knee",knee_r_diag_oa_knee,0.125,0.896551724137931,3.4533844189016603
 "knee_r_exam_tenderness_knee, knee_r_reason_natural",knee_r_diag_oa_knee,0.125,0.896551724137931,3.4533844189016603
-"knee_r_diag_oa_knee, knee_r_duration_val",knee_r_pain_walking,0.16826923076923078,0.7608695652173914,3.4404536862003785
-"knee_r_diag_oa_knee, knee_l_duration_val",knee_l_diag_oa_knee,0.19230769230769232,0.9756097560975611,3.439437784208351
-"medication_none, knee_l_diag_oa_knee",knee_l_pain_walking,0.1201923076923077,0.8928571428571429,3.439153439153439
+"knee_r_duration_val, knee_r_diag_oa_knee",knee_r_pain_walking,0.16826923076923078,0.7608695652173914,3.4404536862003785
+"knee_l_duration_val, knee_r_diag_oa_knee",knee_l_diag_oa_knee,0.19230769230769232,0.9756097560975611,3.439437784208351
+"knee_l_diag_oa_knee, medication_none",knee_l_pain_walking,0.1201923076923077,0.8928571428571429,3.439153439153439
 "knee_r_exam_creps_right, knee_r_reason_natural",knee_r_diag_oa_knee,0.15865384615384615,0.8918918918918918,3.435435435435435
-"urine_normal, knee_r_pain_walking",knee_r_reason_natural,0.1346153846153846,0.7567567567567567,3.4218566392479435
-"knee_l_exam_creps_left, knee_l_reason_natural",knee_l_pain_walking,0.1778846153846154,0.8809523809523809,3.393298059964726
+"knee_r_pain_walking, urine_normal",knee_r_reason_natural,0.1346153846153846,0.7567567567567567,3.4218566392479435
+"knee_l_reason_natural, knee_l_exam_creps_left",knee_l_pain_walking,0.1778846153846154,0.8809523809523809,3.393298059964726
 "knee_r_pain_stairclimbing, sex_female",knee_r_reason_natural,0.12980769230769232,0.7500000000000001,3.391304347826088
 "tongue_sama, knee_r_reason_natural",knee_r_pain_walking,0.15865384615384615,0.75,3.391304347826087
-"knee_r_diag_oa_knee, knee_r_exam_creps_right",knee_r_reason_natural,0.15865384615384615,0.75,3.391304347826087
+"knee_r_exam_creps_right, knee_r_diag_oa_knee",knee_r_reason_natural,0.15865384615384615,0.75,3.391304347826087
 "medication_none, knee_l_reason_natural",knee_l_diag_oa_knee,0.1201923076923077,0.9615384615384616,3.3898305084745766
 knee_l_pain_lowsitting,knee_l_pain_walking,0.13942307692307693,0.8787878787878789,3.3849607182940518
 "knee_l_pain_stairclimbing, knee_l_diag_oa_knee",knee_l_pain_walking,0.13942307692307693,0.8787878787878789,3.3849607182940518
-"knee_r_morning_stiffness, knee_r_exam_creps_right",knee_r_diag_oa_knee,0.13942307692307693,0.8787878787878789,3.3849607182940518
+"knee_r_exam_creps_right, knee_r_morning_stiffness",knee_r_diag_oa_knee,0.13942307692307693,0.8787878787878789,3.3849607182940518
 "knee_l_diag_oa_knee, knee_l_reason_natural",knee_l_pain_walking,0.16826923076923078,0.875,3.3703703703703702
 "knee_r_duration_val, knee_r_reason_natural",knee_r_diag_oa_knee,0.16346153846153846,0.8717948717948718,3.3580246913580245
-"knee_r_pain_stairclimbing, knee_r_pain_walking",knee_r_diag_oa_knee,0.12980769230769232,0.870967741935484,3.3548387096774195
-"knee_l_exam_creps_left, medication_none",knee_l_pain_walking,0.125,0.8666666666666667,3.3382716049382712
-"knee_l_pain_walking, knee_l_diag_oa_knee",knee_l_reason_natural,0.16826923076923078,0.8333333333333334,3.3333333333333335
-"knee_r_duration_val, knee_r_exam_swelling_non_pitting",knee_r_exam_tenderness_knee,0.125,0.9285714285714286,3.3300492610837438
+"knee_r_pain_walking, knee_r_pain_stairclimbing",knee_r_diag_oa_knee,0.12980769230769232,0.870967741935484,3.3548387096774195
+"medication_none, knee_l_exam_creps_left",knee_l_pain_walking,0.125,0.8666666666666667,3.3382716049382712
+"knee_l_diag_oa_knee, knee_l_pain_walking",knee_l_reason_natural,0.16826923076923078,0.8333333333333334,3.3333333333333335
+"knee_r_exam_swelling_non_pitting, knee_r_duration_val",knee_r_exam_tenderness_knee,0.125,0.9285714285714286,3.3300492610837438
 "knee_r_exam_creps_right, knee_r_exam_swelling_non_pitting",knee_r_exam_tenderness_knee,0.125,0.9285714285714286,3.3300492610837438
 "sex_female, knee_r_reason_natural",knee_r_diag_oa_knee,0.14903846153846154,0.8611111111111112,3.316872427983539
-"knee_r_pain_stairclimbing, knee_r_exam_creps_right",knee_r_diag_oa_knee,0.13942307692307693,0.8529411764705882,3.285403050108932
+"knee_r_exam_creps_right, knee_r_pain_stairclimbing",knee_r_diag_oa_knee,0.13942307692307693,0.8529411764705882,3.285403050108932
 "knee_l_pain_stairclimbing, knee_l_diag_oa_knee",knee_l_reason_natural,0.12980769230769232,0.8181818181818183,3.2727272727272734
-"sex_female, knee_l_exam_swelling_non_pitting",knee_l_exam_tenderness_knee,0.125,0.896551724137931,3.271627344222625
-"knee_l_exam_creps_left, knee_l_exam_swelling_non_pitting",knee_l_exam_tenderness_knee,0.125,0.896551724137931,3.271627344222625
+"knee_l_exam_swelling_non_pitting, sex_female",knee_l_exam_tenderness_knee,0.125,0.896551724137931,3.271627344222625
+"knee_l_exam_swelling_non_pitting, knee_l_exam_creps_left",knee_l_exam_tenderness_knee,0.125,0.896551724137931,3.271627344222625
 lumbar_related_radiating,lumbar_exam_tenderness,0.1201923076923077,0.8333333333333335,3.2704402515723277
-"knee_r_pain_stairclimbing, tongue_sama",knee_r_diag_oa_knee,0.1346153846153846,0.8484848484848485,3.2682379349046013
+"tongue_sama, knee_r_pain_stairclimbing",knee_r_diag_oa_knee,0.1346153846153846,0.8484848484848485,3.2682379349046013
 "knee_l_duration_val, knee_l_reason_natural",knee_l_pain_walking,0.1875,0.8478260869565217,3.2657004830917873
 "tongue_sama, knee_l_pain_stairclimbing",knee_l_reason_natural,0.14903846153846154,0.8157894736842105,3.263157894736842
 knee_r_exam_swelling_non_pitting,knee_r_exam_tenderness_knee,0.14423076923076922,0.9090909090909091,3.2601880877742944
 "tongue_sama, knee_r_pain_walking",knee_r_diag_oa_knee,0.15865384615384615,0.8461538461538461,3.259259259259259
-"knee_l_pain_walking, tongue_sama",knee_l_reason_natural,0.1875,0.8125,3.25
+"tongue_sama, knee_l_pain_walking",knee_l_reason_natural,0.1875,0.8125,3.25
 "tongue_sama, knee_l_pain_stairclimbing",knee_l_pain_walking,0.15384615384615385,0.8421052631578948,3.2436647173489277
-"knee_l_exam_creps_left, knee_l_pain_stairclimbing",knee_l_pain_walking,0.15384615384615385,0.8421052631578948,3.2436647173489277
-"appetite_normal, knee_l_pain_walking",knee_l_reason_natural,0.14423076923076922,0.8108108108108107,3.243243243243243
-"urine_normal, knee_r_pain_walking",knee_r_diag_oa_knee,0.14903846153846154,0.8378378378378378,3.227227227227227
-"knee_l_pain_walking, knee_l_pain_stairclimbing",knee_l_reason_natural,0.13942307692307693,0.8055555555555556,3.2222222222222223
+"knee_l_pain_stairclimbing, knee_l_exam_creps_left",knee_l_pain_walking,0.15384615384615385,0.8421052631578948,3.2436647173489277
+"knee_l_pain_walking, appetite_normal",knee_l_reason_natural,0.14423076923076922,0.8108108108108107,3.243243243243243
+"knee_r_pain_walking, urine_normal",knee_r_diag_oa_knee,0.14903846153846154,0.8378378378378378,3.227227227227227
+"knee_l_pain_stairclimbing, knee_l_pain_walking",knee_l_reason_natural,0.13942307692307693,0.8055555555555556,3.2222222222222223
 knee_l_exam_swelling_non_pitting,knee_l_exam_tenderness_knee,0.14423076923076922,0.8823529411764705,3.219814241486067
-"knee_l_exam_creps_left, knee_l_pain_walking",knee_l_reason_natural,0.1778846153846154,0.8043478260869565,3.217391304347826
-"stool_satisfactory, knee_r_pain_walking",knee_r_diag_oa_knee,0.1201923076923077,0.8333333333333335,3.209876543209877
+"knee_l_pain_walking, knee_l_exam_creps_left",knee_l_reason_natural,0.1778846153846154,0.8043478260869565,3.217391304347826
+"knee_r_pain_walking, stool_satisfactory",knee_r_diag_oa_knee,0.1201923076923077,0.8333333333333335,3.209876543209877
 "stool_satisfactory, knee_r_reason_natural",knee_r_diag_oa_knee,0.1201923076923077,0.8333333333333335,3.209876543209877
-"knee_l_pain_walking, knee_l_pain_lowsitting",knee_l_diag_oa_knee,0.125,0.896551724137931,3.1607247223845705
+"knee_l_pain_lowsitting, knee_l_pain_walking",knee_l_diag_oa_knee,0.125,0.896551724137931,3.1607247223845705
 "stool_satisfactory, knee_l_reason_natural",knee_l_pain_walking,0.12980769230769232,0.8181818181818183,3.151515151515152
 "knee_l_pain_walking, medication_none",knee_l_diag_oa_knee,0.1201923076923077,0.8928571428571429,3.14769975786925
-"knee_r_duration_val, knee_r_pain_walking",knee_r_diag_oa_knee,0.16826923076923078,0.8139534883720931,3.1352282515073213
-"sex_female, knee_r_pain_walking",knee_r_diag_oa_knee,0.14423076923076922,0.8108108108108107,3.1231231231231225
+"knee_r_pain_walking, knee_r_duration_val",knee_r_diag_oa_knee,0.16826923076923078,0.8139534883720931,3.1352282515073213
+"knee_r_pain_walking, sex_female",knee_r_diag_oa_knee,0.14423076923076922,0.8108108108108107,3.1231231231231225
 "knee_l_pain_walking, sex_female",knee_l_reason_natural,0.15384615384615385,0.7804878048780488,3.1219512195121952
 "knee_l_pain_walking, knee_l_duration_val",knee_l_reason_natural,0.1875,0.78,3.12
 knee_r_pain_walking,knee_r_diag_oa_knee,0.1778846153846154,0.8043478260869565,3.0982286634460547
 knee_r_reason_natural,knee_r_diag_oa_knee,0.1778846153846154,0.8043478260869565,3.0982286634460547
-"knee_r_exam_rom, tongue_sama",knee_r_exam_tenderness_knee,0.1201923076923077,0.8620689655172413,3.091557669441141
+"tongue_sama, knee_r_exam_rom",knee_r_exam_tenderness_knee,0.1201923076923077,0.8620689655172413,3.091557669441141
 "knee_l_pain_walking, knee_l_reason_natural",knee_l_diag_oa_knee,0.16826923076923078,0.875,3.0847457627118646
 "sex_female, knee_l_reason_natural",knee_l_pain_walking,0.15384615384615385,0.8,3.0814814814814815
-"knee_l_duration_val, knee_l_diag_oa_knee",knee_l_pain_walking,0.19230769230769232,0.8,3.0814814814814815
+"knee_l_diag_oa_knee, knee_l_duration_val",knee_l_pain_walking,0.19230769230769232,0.8,3.0814814814814815
 "knee_l_pain_walking, urine_normal",knee_l_reason_natural,0.15865384615384615,0.7674418604651163,3.0697674418604652
-"knee_l_duration_val, knee_l_pain_stairclimbing",knee_l_pain_walking,0.16826923076923078,0.7954545454545455,3.063973063973064
+"knee_l_pain_stairclimbing, knee_l_duration_val",knee_l_pain_walking,0.16826923076923078,0.7954545454545455,3.063973063973064
 "medication_none, knee_l_duration_val",knee_l_diag_oa_knee,0.125,0.8666666666666667,3.055367231638418
-"knee_l_exam_creps_left, knee_l_pain_lowsitting",knee_l_diag_oa_knee,0.125,0.8666666666666667,3.055367231638418
-"knee_l_exam_creps_left, knee_l_pain_stairclimbing",knee_l_reason_natural,0.13942307692307693,0.7631578947368421,3.0526315789473686
-"knee_l_exam_creps_left, knee_l_diag_oa_knee",knee_l_pain_walking,0.18269230769230768,0.7916666666666666,3.0493827160493825
-"knee_l_duration_val, knee_l_diag_oa_knee",knee_l_reason_natural,0.18269230769230768,0.7599999999999999,3.0399999999999996
+"knee_l_pain_lowsitting, knee_l_exam_creps_left",knee_l_diag_oa_knee,0.125,0.8666666666666667,3.055367231638418
+"knee_l_pain_stairclimbing, knee_l_exam_creps_left",knee_l_reason_natural,0.13942307692307693,0.7631578947368421,3.0526315789473686
+"knee_l_diag_oa_knee, knee_l_exam_creps_left",knee_l_pain_walking,0.18269230769230768,0.7916666666666666,3.0493827160493825
+"knee_l_diag_oa_knee, knee_l_duration_val",knee_l_reason_natural,0.18269230769230768,0.7599999999999999,3.0399999999999996
 "knee_l_pain_lowsitting, knee_l_reason_natural",knee_l_diag_oa_knee,0.1201923076923077,0.8620689655172413,3.0391583869082406
 "urine_normal, knee_l_reason_natural",knee_l_pain_walking,0.15865384615384615,0.7857142857142857,3.026455026455026
-"knee_l_exam_creps_left, knee_l_reason_natural",knee_l_diag_oa_knee,0.17307692307692307,0.8571428571428571,3.0217917675544794
+"knee_l_reason_natural, knee_l_exam_creps_left",knee_l_diag_oa_knee,0.17307692307692307,0.8571428571428571,3.0217917675544794
 "knee_l_morning_stiffness, knee_l_diag_oa_knee",knee_l_pain_walking,0.1201923076923077,0.78125,3.009259259259259
 "tongue_sama, knee_l_reason_natural",knee_l_pain_walking,0.1875,0.78,3.0044444444444443
-"stool_satisfactory, knee_l_pain_walking",knee_l_reason_natural,0.12980769230769232,0.7500000000000001,3.0000000000000004
+"knee_l_pain_walking, stool_satisfactory",knee_l_reason_natural,0.12980769230769232,0.7500000000000001,3.0000000000000004
 "tongue_sama, knee_l_diag_oa_knee",knee_l_reason_natural,0.1875,0.75,3.0
 "knee_r_exam_rom, sex_female",knee_r_exam_tenderness_knee,0.1201923076923077,0.8333333333333335,2.988505747126437
-"stool_satisfactory, knee_r_exam_creps_right",knee_r_diag_oa_knee,0.14903846153846154,0.7749999999999999,2.9851851851851845
+"knee_r_exam_creps_right, stool_satisfactory",knee_r_diag_oa_knee,0.14903846153846154,0.7749999999999999,2.9851851851851845
 "knee_l_pain_stairclimbing, knee_l_reason_natural",knee_l_diag_oa_knee,0.12980769230769232,0.84375,2.9745762711864407
 lumbar_morning_stiffness,lumbar_exam_tenderness,0.1201923076923077,0.7575757575757577,2.973127501429389
 knee_l_reason_natural,knee_l_pain_walking,0.19230769230769232,0.7692307692307693,2.962962962962963
-"sex_female, knee_l_pain_stairclimbing",knee_l_pain_walking,0.14423076923076922,0.7692307692307692,2.9629629629629624
+"knee_l_pain_stairclimbing, sex_female",knee_l_pain_walking,0.14423076923076922,0.7692307692307692,2.9629629629629624
 "knee_r_pain_stairclimbing, knee_r_duration_val",knee_r_diag_oa_knee,0.14423076923076922,0.7692307692307692,2.9629629629629624
 knee_l_pain_stairclimbing,knee_l_pain_walking,0.17307692307692307,0.7659574468085106,2.950354609929078
 "knee_r_pain_stairclimbing, urine_normal",knee_r_diag_oa_knee,0.125,0.7647058823529411,2.9455337690631804
 "lumbar_present, acidity",lumbar_exam_tenderness,0.12980769230769232,0.7500000000000001,2.943396226415095
 "knee_l_exam_creps_left, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.19230769230769232,0.9756097560975611,2.9409685401201844
-"knee_l_pain_walking, knee_l_morning_stiffness",knee_l_diag_oa_knee,0.1201923076923077,0.8333333333333335,2.9378531073446332
-"knee_r_exam_rom, knee_r_exam_creps_right",knee_r_exam_tenderness_knee,0.12980769230769232,0.8181818181818183,2.934169278996866
-"stool_satisfactory, knee_l_diag_oa_knee",knee_l_pain_walking,0.1346153846153846,0.7567567567567567,2.9149149149149145
+"knee_l_morning_stiffness, knee_l_pain_walking",knee_l_diag_oa_knee,0.1201923076923077,0.8333333333333335,2.9378531073446332
+"knee_r_exam_creps_right, knee_r_exam_rom",knee_r_exam_tenderness_knee,0.12980769230769232,0.8181818181818183,2.934169278996866
+"knee_l_diag_oa_knee, stool_satisfactory",knee_l_pain_walking,0.1346153846153846,0.7567567567567567,2.9149149149149145
 "knee_l_duration_val, knee_l_reason_natural",knee_l_diag_oa_knee,0.18269230769230768,0.8260869565217391,2.9123065585851142
-"knee_l_exam_creps_left, knee_l_pain_walking",knee_l_diag_oa_knee,0.18269230769230768,0.8260869565217391,2.9123065585851142
-"knee_r_duration_val, knee_r_exam_rom",knee_r_exam_tenderness_knee,0.14423076923076922,0.8108108108108107,2.9077353215284245
+"knee_l_pain_walking, knee_l_exam_creps_left",knee_l_diag_oa_knee,0.18269230769230768,0.8260869565217391,2.9123065585851142
+"knee_r_exam_rom, knee_r_duration_val",knee_r_exam_tenderness_knee,0.14423076923076922,0.8108108108108107,2.9077353215284245
 "knee_r_exam_rom_right_pain, knee_r_duration_val",knee_r_exam_creps_right,0.12980769230769232,0.9642857142857144,2.9068322981366466
 "knee_r_pain_stairclimbing, knee_r_pain_walking",knee_r_exam_tenderness_knee,0.1201923076923077,0.8064516129032259,2.89210233592881
 "knee_r_pain_stairclimbing, sex_female",knee_r_diag_oa_knee,0.12980769230769232,0.7500000000000001,2.8888888888888893
 "tongue_sama, knee_l_pain_stairclimbing",knee_l_diag_oa_knee,0.14903846153846154,0.8157894736842105,2.8760035682426404
 "knee_l_pain_walking, urine_normal",knee_l_diag_oa_knee,0.16826923076923078,0.8139534883720931,2.8695309420575486
-"appetite_normal, knee_l_pain_walking",knee_l_diag_oa_knee,0.14423076923076922,0.8108108108108107,2.858451672010994
+"knee_l_pain_walking, appetite_normal",knee_l_diag_oa_knee,0.14423076923076922,0.8108108108108107,2.858451672010994
 knee_r_exam_rom,knee_r_exam_tenderness_knee,0.14903846153846154,0.7948717948717948,2.850574712643678
 knee_l_pain_standing,knee_l_diag_oa_knee,0.1201923076923077,0.8064516129032259,2.8430836522689997
 "knee_l_pain_lowsitting, knee_l_duration_val",knee_l_diag_oa_knee,0.1201923076923077,0.8064516129032259,2.8430836522689997
-"knee_l_pain_walking, knee_l_pain_stairclimbing",knee_l_diag_oa_knee,0.13942307692307693,0.8055555555555556,2.8399246704331453
-"knee_r_diag_oa_knee, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.14903846153846154,0.9393939393939394,2.831796223100571
+"knee_l_pain_stairclimbing, knee_l_pain_walking",knee_l_diag_oa_knee,0.13942307692307693,0.8055555555555556,2.8399246704331453
+"knee_r_exam_tenderness_knee, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.14903846153846154,0.9393939393939394,2.831796223100571
 "sex_female, knee_l_reason_natural",knee_l_diag_oa_knee,0.15384615384615385,0.8,2.820338983050848
 "knee_l_pain_walking, knee_l_duration_val",knee_l_diag_oa_knee,0.19230769230769232,0.8,2.820338983050848
 knee_r_exam_rom_right_pain,knee_r_exam_creps_right,0.13942307692307693,0.935483870967742,2.820009350163628
 "knee_r_pain_stairclimbing, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.13942307692307693,0.935483870967742,2.820009350163628
-"knee_r_morning_stiffness, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.13942307692307693,0.935483870967742,2.820009350163628
-"knee_r_exam_tenderness_knee, knee_r_pain_walking",knee_r_exam_creps_right,0.12980769230769232,0.9310344827586208,2.806596701649176
+"knee_r_diag_oa_knee, knee_r_morning_stiffness",knee_r_exam_creps_right,0.13942307692307693,0.935483870967742,2.820009350163628
+"knee_r_pain_walking, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.12980769230769232,0.9310344827586208,2.806596701649176
 "knee_r_exam_tenderness_knee, knee_r_reason_natural",knee_r_exam_creps_right,0.12980769230769232,0.9310344827586208,2.806596701649176
-"gas, knee_r_exam_creps_right",knee_r_exam_tenderness_knee,0.1201923076923077,0.78125,2.8017241379310343
-"knee_r_duration_val, knee_r_exam_swelling_non_pitting",knee_r_exam_creps_right,0.125,0.9285714285714286,2.7991718426501038
-"knee_l_pain_walking, tongue_sama",knee_l_diag_oa_knee,0.18269230769230768,0.7916666666666666,2.790960451977401
+"knee_r_exam_creps_right, gas",knee_r_exam_tenderness_knee,0.1201923076923077,0.78125,2.8017241379310343
+"knee_r_exam_swelling_non_pitting, knee_r_duration_val",knee_r_exam_creps_right,0.125,0.9285714285714286,2.7991718426501038
+"tongue_sama, knee_l_pain_walking",knee_l_diag_oa_knee,0.18269230769230768,0.7916666666666666,2.790960451977401
 "knee_l_exam_rom, sex_female",knee_l_exam_tenderness_knee,0.125,0.7647058823529411,2.790505675954592
 knee_l_pain_lowsitting,knee_l_diag_oa_knee,0.125,0.787878787878788,2.777606574216744
 "stool_satisfactory, knee_l_reason_natural",knee_l_diag_oa_knee,0.125,0.787878787878788,2.777606574216744
-"knee_r_diag_oa_knee, knee_r_pain_walking",knee_r_exam_creps_right,0.16346153846153846,0.9189189189189189,2.770074422248335
+"knee_r_pain_walking, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.16346153846153846,0.9189189189189189,2.770074422248335
 "urine_normal, knee_l_reason_natural",knee_l_diag_oa_knee,0.15865384615384615,0.7857142857142857,2.7699757869249395
 "knee_r_exam_creps_right, tongue_sama",knee_r_exam_tenderness_knee,0.21153846153846154,0.7719298245614035,2.7683000604960677
 "knee_l_pain_walking, sex_female",knee_l_diag_oa_knee,0.15384615384615385,0.7804878048780488,2.7515502273666805
 "tongue_sama, knee_l_reason_natural",knee_l_diag_oa_knee,0.1875,0.78,2.7498305084745764
-"knee_r_reason_natural, knee_r_pain_walking",knee_r_exam_creps_right,0.14903846153846154,0.9117647058823529,2.7485080988917305
+"knee_r_pain_walking, knee_r_reason_natural",knee_r_exam_creps_right,0.14903846153846154,0.9117647058823529,2.7485080988917305
 "knee_r_pain_stairclimbing, urine_normal",knee_r_exam_tenderness_knee,0.125,0.7647058823529411,2.7423935091277887
-"knee_r_reason_natural, knee_r_pain_walking",knee_r_exam_tenderness_knee,0.125,0.7647058823529411,2.7423935091277887
-"knee_r_pain_stairclimbing, knee_r_exam_creps_right",knee_r_exam_tenderness_knee,0.125,0.7647058823529411,2.7423935091277887
-"stool_satisfactory, knee_l_pain_walking",knee_l_diag_oa_knee,0.1346153846153846,0.7777777777777778,2.7419962335216574
-"knee_l_exam_creps_left, knee_l_morning_stiffness",knee_l_diag_oa_knee,0.1346153846153846,0.7777777777777778,2.7419962335216574
+"knee_r_pain_walking, knee_r_reason_natural",knee_r_exam_tenderness_knee,0.125,0.7647058823529411,2.7423935091277887
+"knee_r_exam_creps_right, knee_r_pain_stairclimbing",knee_r_exam_tenderness_knee,0.125,0.7647058823529411,2.7423935091277887
+"knee_l_pain_walking, stool_satisfactory",knee_l_diag_oa_knee,0.1346153846153846,0.7777777777777778,2.7419962335216574
+"knee_l_morning_stiffness, knee_l_exam_creps_left",knee_l_diag_oa_knee,0.1346153846153846,0.7777777777777778,2.7419962335216574
 knee_l_pain_walking,knee_l_diag_oa_knee,0.20192307692307693,0.7777777777777777,2.741996233521657
-"knee_l_exam_creps_left, knee_l_exam_rom",knee_l_exam_tenderness_knee,0.12980769230769232,0.7500000000000001,2.736842105263158
-"knee_r_pain_stairclimbing, knee_r_pain_walking",knee_r_exam_creps_right,0.1346153846153846,0.9032258064516129,2.7227676484338477
+"knee_l_exam_rom, knee_l_exam_creps_left",knee_l_exam_tenderness_knee,0.12980769230769232,0.7500000000000001,2.736842105263158
+"knee_r_pain_walking, knee_r_pain_stairclimbing",knee_r_exam_creps_right,0.1346153846153846,0.9032258064516129,2.7227676484338477
 "knee_r_pain_stairclimbing, knee_r_reason_natural",knee_r_exam_creps_right,0.1346153846153846,0.9032258064516129,2.7227676484338477
-"knee_r_pain_stairclimbing, tongue_sama",knee_r_exam_tenderness_knee,0.1201923076923077,0.7575757575757577,2.716823406478579
+"tongue_sama, knee_r_pain_stairclimbing",knee_r_exam_tenderness_knee,0.1201923076923077,0.7575757575757577,2.716823406478579
 knee_l_reason_natural,knee_l_diag_oa_knee,0.19230769230769232,0.7692307692307693,2.7118644067796613
-"knee_r_exam_tenderness_knee, tongue_sama",knee_r_exam_creps_right,0.21153846153846154,0.8979591836734694,2.706891452233067
-"knee_r_exam_rom, tongue_sama",knee_r_exam_creps_right,0.125,0.896551724137931,2.7026486756621693
-"gas, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.1201923076923077,0.8928571428571429,2.6915113871635614
-"knee_r_duration_val, medication_none",knee_r_exam_creps_right,0.1201923076923077,0.8928571428571429,2.6915113871635614
-"urine_normal, knee_r_pain_walking",knee_r_exam_creps_right,0.15865384615384615,0.8918918918918918,2.688601645123384
-"knee_r_diag_oa_knee, knee_r_reason_natural",knee_r_exam_creps_right,0.15865384615384615,0.8918918918918918,2.688601645123384
-"knee_r_diag_oa_knee, knee_r_duration_val",knee_r_exam_creps_right,0.1971153846153846,0.8913043478260869,2.686830497794581
-"knee_r_pain_stairclimbing, tongue_sama",knee_r_exam_creps_right,0.13942307692307693,0.8787878787878789,2.6490996925779537
+"tongue_sama, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.21153846153846154,0.8979591836734694,2.706891452233067
+"tongue_sama, knee_r_exam_rom",knee_r_exam_creps_right,0.125,0.896551724137931,2.7026486756621693
+"knee_r_exam_tenderness_knee, gas",knee_r_exam_creps_right,0.1201923076923077,0.8928571428571429,2.6915113871635614
+"medication_none, knee_r_duration_val",knee_r_exam_creps_right,0.1201923076923077,0.8928571428571429,2.6915113871635614
+"knee_r_pain_walking, urine_normal",knee_r_exam_creps_right,0.15865384615384615,0.8918918918918918,2.688601645123384
+"knee_r_reason_natural, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.15865384615384615,0.8918918918918918,2.688601645123384
+"knee_r_duration_val, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.1971153846153846,0.8913043478260869,2.686830497794581
+"tongue_sama, knee_r_pain_stairclimbing",knee_r_exam_creps_right,0.13942307692307693,0.8787878787878789,2.6490996925779537
 "knee_r_exam_tenderness_knee, knee_r_duration_val",knee_r_exam_creps_right,0.20673076923076922,0.8775510204081632,2.645371191955043
 "knee_r_duration_val, knee_r_reason_natural",knee_r_exam_creps_right,0.16346153846153846,0.8717948717948718,2.6280193236714977
-"knee_r_exam_tenderness_knee, knee_r_exam_rom",knee_r_exam_creps_right,0.12980769230769232,0.870967741935484,2.6255259467040677
+"knee_r_exam_rom, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.12980769230769232,0.870967741935484,2.6255259467040677
 "knee_r_exam_rom, sex_female",knee_r_exam_creps_right,0.125,0.8666666666666667,2.6125603864734304
-"stool_satisfactory, knee_r_pain_walking",knee_r_exam_creps_right,0.125,0.8666666666666667,2.6125603864734304
+"knee_r_pain_walking, stool_satisfactory",knee_r_exam_creps_right,0.125,0.8666666666666667,2.6125603864734304
 "knee_r_pain_stairclimbing, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.125,0.8666666666666667,2.6125603864734304
-"knee_r_exam_tenderness_knee, knee_r_exam_swelling_non_pitting",knee_r_exam_creps_right,0.125,0.8666666666666667,2.6125603864734304
-"knee_l_pain_walking, knee_l_exam_tenderness_knee",knee_l_exam_creps_left,0.1346153846153846,0.9655172413793103,2.6081504702194356
+"knee_r_exam_swelling_non_pitting, knee_r_exam_tenderness_knee",knee_r_exam_creps_right,0.125,0.8666666666666667,2.6125603864734304
+"knee_l_exam_tenderness_knee, knee_l_pain_walking",knee_l_exam_creps_left,0.1346153846153846,0.9655172413793103,2.6081504702194356
 "knee_l_pain_lowsitting, knee_l_reason_natural",knee_l_exam_creps_left,0.1346153846153846,0.9655172413793103,2.6081504702194356
 "knee_l_pain_lowsitting, tongue_sama",knee_l_exam_creps_left,0.12980769230769232,0.9642857142857144,2.6048237476808906
 "knee_l_duration_val, knee_l_exam_rom_left_pain",knee_l_exam_creps_left,0.12980769230769232,0.9642857142857144,2.6048237476808906
 "knee_l_pain_lowsitting, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.12980769230769232,0.9642857142857144,2.6048237476808906
 "sex_female, knee_l_exam_rom_left_pain",knee_l_exam_creps_left,0.125,0.9629629629629629,2.601250601250601
-"nidra_disturbed, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.1201923076923077,0.9615384615384616,2.5974025974025974
+"knee_l_diag_oa_knee, nidra_disturbed",knee_l_exam_creps_left,0.1201923076923077,0.9615384615384616,2.5974025974025974
 "sex_female, knee_r_reason_natural",knee_r_exam_creps_right,0.14903846153846154,0.8611111111111112,2.595813204508857
 "stool_satisfactory, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.14903846153846154,0.8611111111111112,2.595813204508857
 knee_r_exam_swelling_non_pitting,knee_r_exam_creps_right,0.1346153846153846,0.8484848484848485,2.557751427316645
 "knee_r_exam_tenderness_knee, urine_normal",knee_r_exam_creps_right,0.1875,0.8478260869565217,2.555765595463138
 knee_r_exam_rom,knee_r_exam_creps_right,0.15865384615384615,0.8461538461538461,2.5507246376811596
 knee_r_exam_tenderness_knee,knee_r_exam_creps_right,0.23557692307692307,0.8448275862068965,2.546726636681659
-"knee_r_diag_oa_knee, urine_normal",knee_r_exam_creps_right,0.18269230769230768,0.8444444444444443,2.5455716586151365
+"urine_normal, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.18269230769230768,0.8444444444444443,2.5455716586151365
 "urine_normal, knee_r_reason_natural",knee_r_exam_creps_right,0.15384615384615385,0.8421052631578948,2.538520213577422
-"knee_r_diag_oa_knee, sex_female",knee_r_exam_creps_right,0.1778846153846154,0.8409090909090909,2.534914361001318
+"sex_female, knee_r_diag_oa_knee",knee_r_exam_creps_right,0.1778846153846154,0.8409090909090909,2.534914361001318
 knee_l_exam_rom_left_pain,knee_l_exam_creps_left,0.14423076923076922,0.9374999999999999,2.532467532467532
 "knee_l_pain_lowsitting, knee_l_duration_val",knee_l_exam_creps_left,0.13942307692307693,0.935483870967742,2.527021365731043
 "knee_l_exam_tenderness_knee, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.1346153846153846,0.9333333333333333,2.521212121212121
@@ -237,163 +237,163 @@ knee_l_exam_rom_left_pain,knee_l_exam_creps_left,0.14423076923076922,0.937499999
 "knee_l_pain_walking, urine_normal",knee_l_exam_creps_left,0.19230769230769232,0.930232558139535,2.5128360012080946
 "knee_l_pain_walking, medication_none",knee_l_exam_creps_left,0.125,0.9285714285714286,2.5083487940630795
 "knee_r_exam_tenderness_knee, knee_l_duration_val",knee_r_duration_val,0.1971153846153846,0.9761904761904762,2.506760728982951
-"knee_r_diag_oa_knee, knee_l_duration_val",knee_r_duration_val,0.19230769230769232,0.9756097560975611,2.505269497139416
-"knee_l_duration_val, knee_l_exam_swelling_non_pitting",knee_l_exam_creps_left,0.1201923076923077,0.9259259259259258,2.501202501202501
+"knee_l_duration_val, knee_r_diag_oa_knee",knee_r_duration_val,0.19230769230769232,0.9756097560975611,2.505269497139416
+"knee_l_exam_swelling_non_pitting, knee_l_duration_val",knee_l_exam_creps_left,0.1201923076923077,0.9259259259259258,2.501202501202501
 "knee_l_pain_walking, knee_l_reason_natural",knee_l_exam_creps_left,0.1778846153846154,0.9249999999999999,2.4987012987012984
-"sex_female, knee_r_pain_walking",knee_r_duration_val,0.17307692307692307,0.9729729729729729,2.498498498498498
-"knee_r_pain_stairclimbing, knee_r_pain_walking",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
+"knee_r_pain_walking, sex_female",knee_r_duration_val,0.17307692307692307,0.9729729729729729,2.498498498498498
+"knee_r_pain_walking, knee_r_pain_stairclimbing",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
 "knee_r_pain_stairclimbing, knee_r_reason_natural",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
 "knee_r_pain_stairclimbing, knee_r_diag_oa_knee",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
-"knee_r_morning_stiffness, knee_r_diag_oa_knee",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
-"knee_r_exam_tenderness_knee, knee_r_exam_rom",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
+"knee_r_diag_oa_knee, knee_r_morning_stiffness",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
+"knee_r_exam_rom, knee_r_exam_tenderness_knee",knee_r_duration_val,0.14423076923076922,0.9677419354838709,2.485065710872162
 "knee_r_pain_stairclimbing, urine_normal",knee_r_exam_creps_right,0.1346153846153846,0.8235294117647058,2.4825234441602726
 "knee_r_exam_rom, sex_female",knee_r_duration_val,0.13942307692307693,0.9666666666666668,2.4823045267489716
-"stool_satisfactory, knee_r_pain_walking",knee_r_duration_val,0.13942307692307693,0.9666666666666668,2.4823045267489716
+"knee_r_pain_walking, stool_satisfactory",knee_r_duration_val,0.13942307692307693,0.9666666666666668,2.4823045267489716
 knee_r_pain_standing,knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
-"appetite_normal, knee_r_pain_walking",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
-"knee_r_exam_rom, tongue_sama",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
-"knee_r_exam_tenderness_knee, knee_r_pain_walking",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
+"knee_r_pain_walking, appetite_normal",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
+"tongue_sama, knee_r_exam_rom",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
+"knee_r_pain_walking, knee_r_exam_tenderness_knee",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
 "knee_r_exam_tenderness_knee, knee_r_reason_natural",knee_r_duration_val,0.1346153846153846,0.9655172413793103,2.479352916134525
 "tongue_sama, knee_r_pain_walking",knee_r_exam_creps_right,0.15384615384615385,0.8205128205128206,2.4734299516908216
 "knee_r_pain_stairclimbing, knee_r_duration_val",knee_r_exam_creps_right,0.15384615384615385,0.8205128205128206,2.4734299516908216
 "knee_r_exam_rom, urine_normal",knee_r_duration_val,0.125,0.9629629629629629,2.472793781435757
 knee_r_pain_lowsitting,knee_r_duration_val,0.1201923076923077,0.9615384615384616,2.4691358024691357
 "medication_ongoing, knee_r_exam_rom",knee_r_duration_val,0.1201923076923077,0.9615384615384616,2.4691358024691357
-"knee_r_morning_stiffness, knee_r_pain_walking",knee_r_duration_val,0.1201923076923077,0.9615384615384616,2.4691358024691357
+"knee_r_pain_walking, knee_r_morning_stiffness",knee_r_duration_val,0.1201923076923077,0.9615384615384616,2.4691358024691357
 knee_r_diag_oa_knee,knee_r_exam_creps_right,0.21153846153846154,0.8148148148148148,2.4562533548040792
 knee_l_pain_lowsitting,knee_l_exam_creps_left,0.14423076923076922,0.9090909090909091,2.455726092089728
 "knee_l_pain_stairclimbing, knee_l_reason_natural",knee_l_exam_creps_left,0.13942307692307693,0.90625,2.448051948051948
-"sex_female, knee_r_pain_walking",knee_r_exam_creps_right,0.14423076923076922,0.8108108108108107,2.444183313748531
-"knee_l_pain_walking, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.18269230769230768,0.9047619047619047,2.444032158317872
+"knee_r_pain_walking, sex_female",knee_r_exam_creps_right,0.14423076923076922,0.8108108108108107,2.444183313748531
+"knee_l_diag_oa_knee, knee_l_pain_walking",knee_l_exam_creps_left,0.18269230769230768,0.9047619047619047,2.444032158317872
 knee_r_pain_stairclimbing,knee_r_exam_creps_right,0.16346153846153846,0.8095238095238095,2.440303657694962
 knee_r_exam_rom,knee_r_duration_val,0.1778846153846154,0.9487179487179488,2.4362139917695473
 "tongue_sama, knee_r_pain_walking",knee_r_duration_val,0.1778846153846154,0.9487179487179488,2.4362139917695473
 "medication_none, knee_l_duration_val",knee_l_exam_creps_left,0.12980769230769232,0.9000000000000001,2.4311688311688315
 "knee_l_diag_oa_knee, knee_l_reason_natural",knee_l_exam_creps_left,0.17307692307692307,0.8999999999999999,2.4311688311688306
-"knee_r_diag_oa_knee, knee_r_pain_walking",knee_r_duration_val,0.16826923076923078,0.9459459459459459,2.4290957624290956
+"knee_r_pain_walking, knee_r_diag_oa_knee",knee_r_duration_val,0.16826923076923078,0.9459459459459459,2.4290957624290956
 knee_r_pain_walking,knee_r_exam_creps_right,0.1778846153846154,0.8043478260869565,2.4247006931316952
 knee_r_reason_natural,knee_r_exam_creps_right,0.1778846153846154,0.8043478260869565,2.4247006931316952
 "knee_l_exam_tenderness_knee, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.125,0.896551724137931,2.4218540080609046
-"knee_r_reason_natural, knee_r_pain_walking",knee_r_duration_val,0.15384615384615385,0.9411764705882353,2.4168482207697894
-"knee_r_pain_stairclimbing, knee_r_exam_creps_right",knee_r_duration_val,0.15384615384615385,0.9411764705882353,2.4168482207697894
+"knee_r_pain_walking, knee_r_reason_natural",knee_r_duration_val,0.15384615384615385,0.9411764705882353,2.4168482207697894
+"knee_r_exam_creps_right, knee_r_pain_stairclimbing",knee_r_duration_val,0.15384615384615385,0.9411764705882353,2.4168482207697894
 "knee_l_exam_tenderness_knee, sex_female",knee_l_exam_creps_left,0.20192307692307693,0.8936170212765957,2.4139264990328817
 "knee_l_exam_tenderness_knee, tongue_sama",knee_l_exam_creps_left,0.20192307692307693,0.8936170212765957,2.4139264990328817
 "knee_l_exam_tenderness_knee, knee_l_duration_val",knee_l_exam_creps_left,0.20192307692307693,0.8936170212765957,2.4139264990328817
-"knee_r_pain_stairclimbing, tongue_sama",knee_r_duration_val,0.14903846153846154,0.9393939393939394,2.4122708567153013
-"knee_r_morning_stiffness, knee_r_exam_creps_right",knee_r_duration_val,0.14903846153846154,0.9393939393939394,2.4122708567153013
-"knee_r_diag_oa_knee, knee_r_exam_tenderness_knee",knee_r_duration_val,0.14903846153846154,0.9393939393939394,2.4122708567153013
-"gas, knee_l_exam_tenderness_knee",knee_l_exam_creps_left,0.1201923076923077,0.8928571428571429,2.411873840445269
-"nidra_disturbed, knee_l_pain_walking",knee_l_exam_creps_left,0.1201923076923077,0.8928571428571429,2.411873840445269
+"tongue_sama, knee_r_pain_stairclimbing",knee_r_duration_val,0.14903846153846154,0.9393939393939394,2.4122708567153013
+"knee_r_exam_creps_right, knee_r_morning_stiffness",knee_r_duration_val,0.14903846153846154,0.9393939393939394,2.4122708567153013
+"knee_r_exam_tenderness_knee, knee_r_diag_oa_knee",knee_r_duration_val,0.14903846153846154,0.9393939393939394,2.4122708567153013
+"knee_l_exam_tenderness_knee, gas",knee_l_exam_creps_left,0.1201923076923077,0.8928571428571429,2.411873840445269
+"knee_l_pain_walking, nidra_disturbed",knee_l_exam_creps_left,0.1201923076923077,0.8928571428571429,2.411873840445269
 "knee_r_pain_stairclimbing, appetite_normal",knee_r_duration_val,0.13942307692307693,0.935483870967742,2.402230187176424
-"stool_satisfactory, knee_l_pain_walking",knee_l_exam_creps_left,0.15384615384615385,0.888888888888889,2.4011544011544013
+"knee_l_pain_walking, stool_satisfactory",knee_l_exam_creps_left,0.15384615384615385,0.888888888888889,2.4011544011544013
 "knee_l_exam_tenderness_knee, urine_normal",knee_l_exam_creps_left,0.19230769230769232,0.888888888888889,2.4011544011544013
-"knee_l_pain_walking, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.15384615384615385,0.888888888888889,2.4011544011544013
+"knee_l_pain_stairclimbing, knee_l_pain_walking",knee_l_exam_creps_left,0.15384615384615385,0.888888888888889,2.4011544011544013
 knee_r_pain_walking,knee_r_duration_val,0.20673076923076922,0.9347826086956521,2.4004294149221685
 "knee_r_pain_stairclimbing, knee_r_exam_tenderness_knee",knee_r_duration_val,0.1346153846153846,0.9333333333333333,2.3967078189300413
-"knee_r_diag_oa_knee, knee_r_exam_creps_right",knee_r_duration_val,0.1971153846153846,0.9318181818181818,2.392817059483726
-"stool_satisfactory, knee_r_pain_stairclimbing",knee_r_duration_val,0.12980769230769232,0.9310344827586208,2.3908045977011496
+"knee_r_exam_creps_right, knee_r_diag_oa_knee",knee_r_duration_val,0.1971153846153846,0.9318181818181818,2.392817059483726
+"knee_r_pain_stairclimbing, stool_satisfactory",knee_r_duration_val,0.12980769230769232,0.9310344827586208,2.3908045977011496
 "knee_r_exam_rom_right_pain, knee_r_exam_creps_right",knee_r_duration_val,0.12980769230769232,0.9310344827586208,2.3908045977011496
 knee_r_pain_stairclimbing,knee_r_duration_val,0.1875,0.9285714285714286,2.384479717813051
 "knee_r_exam_creps_right, knee_r_exam_swelling_non_pitting",knee_r_duration_val,0.125,0.9285714285714286,2.384479717813051
 "nidra_disturbed, knee_r_diag_oa_knee",knee_r_duration_val,0.1201923076923077,0.9259259259259258,2.377686328303612
-"medication_none, knee_r_exam_creps_right",knee_r_duration_val,0.1201923076923077,0.9259259259259258,2.377686328303612
-"knee_l_duration_val, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.21153846153846154,0.88,2.3771428571428572
+"knee_r_exam_creps_right, medication_none",knee_r_duration_val,0.1201923076923077,0.9259259259259258,2.377686328303612
+"knee_l_diag_oa_knee, knee_l_duration_val",knee_l_exam_creps_left,0.21153846153846154,0.88,2.3771428571428572
 "knee_l_pain_walking, sex_female",knee_l_exam_creps_left,0.17307692307692307,0.8780487804878049,2.371872030408616
 knee_l_exam_tenderness_knee,knee_l_exam_creps_left,0.2403846153846154,0.8771929824561403,2.3695602642971063
 "knee_l_morning_stiffness, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.1346153846153846,0.8749999999999999,2.3636363636363633
-"knee_r_morning_stiffness, sex_female",knee_r_exam_creps_right,0.13942307692307693,0.7837837837837838,2.36271053662358
+"sex_female, knee_r_morning_stiffness",knee_r_exam_creps_right,0.13942307692307693,0.7837837837837838,2.36271053662358
 "knee_r_exam_creps_right, knee_r_reason_natural",knee_r_duration_val,0.16346153846153846,0.9189189189189189,2.3596930263596927
-"knee_r_diag_oa_knee, knee_r_reason_natural",knee_r_duration_val,0.16346153846153846,0.9189189189189189,2.3596930263596927
+"knee_r_reason_natural, knee_r_diag_oa_knee",knee_r_duration_val,0.16346153846153846,0.9189189189189189,2.3596930263596927
 "knee_l_pain_walking, sex_female",knee_l_duration_val,0.19230769230769232,0.9756097560975611,2.359614293817357
 "knee_l_pain_walking, knee_l_reason_natural",knee_l_duration_val,0.1875,0.975,2.358139534883721
-"knee_r_duration_val, knee_l_diag_oa_knee",knee_l_duration_val,0.1875,0.975,2.358139534883721
+"knee_l_diag_oa_knee, knee_r_duration_val",knee_l_duration_val,0.1875,0.975,2.358139534883721
 "tongue_sama, knee_l_pain_stairclimbing",knee_l_duration_val,0.1778846153846154,0.9736842105263159,2.354957160342718
 "sex_female, knee_r_reason_natural",knee_r_duration_val,0.15865384615384615,0.9166666666666666,2.353909465020576
 knee_l_pain_standing,knee_l_exam_creps_left,0.12980769230769232,0.870967741935484,2.352744030163385
 "knee_l_exam_rom, tongue_sama",knee_l_exam_creps_left,0.12980769230769232,0.870967741935484,2.352744030163385
-"knee_l_pain_walking, knee_l_pain_stairclimbing",knee_l_duration_val,0.16826923076923078,0.9722222222222223,2.3514211886304914
+"knee_l_pain_stairclimbing, knee_l_pain_walking",knee_l_duration_val,0.16826923076923078,0.9722222222222223,2.3514211886304914
 "knee_l_duration_val, knee_l_reason_natural",knee_l_exam_creps_left,0.19230769230769232,0.8695652173913044,2.3489553924336533
 "knee_l_pain_stairclimbing, knee_l_diag_oa_knee",knee_l_duration_val,0.15384615384615385,0.9696969696969698,2.3453136011275553
 "knee_l_morning_stiffness, knee_l_diag_oa_knee",knee_l_duration_val,0.14903846153846154,0.9687499999999999,2.343023255813953
 knee_l_pain_standing,knee_l_duration_val,0.14423076923076922,0.9677419354838709,2.3405851462865717
-"knee_l_exam_creps_left, knee_l_pain_lowsitting",knee_l_duration_val,0.13942307692307693,0.9666666666666668,2.3379844961240313
+"knee_l_pain_lowsitting, knee_l_exam_creps_left",knee_l_duration_val,0.13942307692307693,0.9666666666666668,2.3379844961240313
 "knee_l_exam_tenderness_knee, knee_l_diag_oa_knee",knee_l_duration_val,0.13942307692307693,0.9666666666666668,2.3379844961240313
-"stool_satisfactory, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.15384615384615385,0.8648648648648649,2.3362583362583362
-"appetite_normal, knee_l_pain_walking",knee_l_exam_creps_left,0.15384615384615385,0.8648648648648649,2.3362583362583362
-"knee_r_morning_stiffness, knee_r_duration_val",knee_r_exam_creps_right,0.14903846153846154,0.7749999999999999,2.336231884057971
-"sex_female, knee_l_pain_lowsitting",knee_l_duration_val,0.1346153846153846,0.9655172413793103,2.335204490777867
+"knee_l_diag_oa_knee, stool_satisfactory",knee_l_exam_creps_left,0.15384615384615385,0.8648648648648649,2.3362583362583362
+"knee_l_pain_walking, appetite_normal",knee_l_exam_creps_left,0.15384615384615385,0.8648648648648649,2.3362583362583362
+"knee_r_duration_val, knee_r_morning_stiffness",knee_r_exam_creps_right,0.14903846153846154,0.7749999999999999,2.336231884057971
+"knee_l_pain_lowsitting, sex_female",knee_l_duration_val,0.1346153846153846,0.9655172413793103,2.335204490777867
 "knee_l_pain_lowsitting, urine_normal",knee_l_duration_val,0.1346153846153846,0.9655172413793103,2.335204490777867
-"knee_l_pain_walking, knee_l_pain_lowsitting",knee_l_duration_val,0.1346153846153846,0.9655172413793103,2.335204490777867
+"knee_l_pain_lowsitting, knee_l_pain_walking",knee_l_duration_val,0.1346153846153846,0.9655172413793103,2.335204490777867
 "knee_l_pain_lowsitting, knee_l_reason_natural",knee_l_duration_val,0.1346153846153846,0.9655172413793103,2.335204490777867
 "knee_l_pain_lowsitting, tongue_sama",knee_l_duration_val,0.12980769230769232,0.9642857142857144,2.332225913621263
 "knee_l_pain_walking, medication_none",knee_l_duration_val,0.12980769230769232,0.9642857142857144,2.332225913621263
 "knee_l_pain_lowsitting, knee_l_pain_stairclimbing",knee_l_duration_val,0.12980769230769232,0.9642857142857144,2.332225913621263
 "knee_l_morning_stiffness, knee_l_pain_stairclimbing",knee_l_duration_val,0.125,0.9629629629629629,2.3290267011197243
-"sex_female, knee_l_exam_swelling_non_pitting",knee_l_exam_creps_left,0.1201923076923077,0.8620689655172413,2.328705776981639
-"nidra_disturbed, knee_l_diag_oa_knee",knee_l_duration_val,0.1201923076923077,0.9615384615384616,2.3255813953488373
+"knee_l_exam_swelling_non_pitting, sex_female",knee_l_exam_creps_left,0.1201923076923077,0.8620689655172413,2.328705776981639
+"knee_l_diag_oa_knee, nidra_disturbed",knee_l_duration_val,0.1201923076923077,0.9615384615384616,2.3255813953488373
 "knee_l_pain_lowsitting, knee_l_diag_oa_knee",knee_l_duration_val,0.1201923076923077,0.9615384615384616,2.3255813953488373
 knee_r_exam_rom_right_pain,knee_r_duration_val,0.1346153846153846,0.9032258064516129,2.319394663480685
-"knee_l_pain_walking, tongue_sama",knee_l_duration_val,0.22115384615384615,0.9583333333333333,2.317829457364341
+"tongue_sama, knee_l_pain_walking",knee_l_duration_val,0.22115384615384615,0.9583333333333333,2.317829457364341
 "stool_satisfactory, knee_r_reason_natural",knee_r_duration_val,0.12980769230769232,0.9000000000000001,2.3111111111111113
-"knee_r_duration_val, urine_normal",knee_r_exam_creps_right,0.22115384615384615,0.7666666666666667,2.3111111111111113
-"stool_satisfactory, knee_r_exam_creps_right",knee_r_duration_val,0.17307692307692307,0.8999999999999999,2.311111111111111
-"knee_l_pain_walking, tongue_sama",knee_l_exam_creps_left,0.1971153846153846,0.8541666666666666,2.3073593073593073
-"knee_r_morning_stiffness, tongue_sama",knee_r_duration_val,0.16826923076923078,0.8974358974358975,2.3045267489711936
+"urine_normal, knee_r_duration_val",knee_r_exam_creps_right,0.22115384615384615,0.7666666666666667,2.3111111111111113
+"knee_r_exam_creps_right, stool_satisfactory",knee_r_duration_val,0.17307692307692307,0.8999999999999999,2.311111111111111
+"tongue_sama, knee_l_pain_walking",knee_l_exam_creps_left,0.1971153846153846,0.8541666666666666,2.3073593073593073
+"tongue_sama, knee_r_morning_stiffness",knee_r_duration_val,0.16826923076923078,0.8974358974358975,2.3045267489711936
 knee_l_exam_swelling_non_pitting,knee_l_exam_creps_left,0.13942307692307693,0.8529411764705882,2.3040488922841864
-"knee_l_pain_walking, knee_l_diag_oa_knee",knee_l_duration_val,0.19230769230769232,0.9523809523809524,2.30343300110742
-"knee_l_exam_creps_left, knee_l_reason_natural",knee_l_duration_val,0.19230769230769232,0.9523809523809524,2.30343300110742
+"knee_l_diag_oa_knee, knee_l_pain_walking",knee_l_duration_val,0.19230769230769232,0.9523809523809524,2.30343300110742
+"knee_l_reason_natural, knee_l_exam_creps_left",knee_l_duration_val,0.19230769230769232,0.9523809523809524,2.30343300110742
 knee_l_pain_walking,knee_l_exam_creps_left,0.22115384615384615,0.8518518518518517,2.3011063011063007
 "knee_l_diag_oa_knee, knee_l_reason_natural",knee_l_duration_val,0.18269230769230768,0.9499999999999998,2.2976744186046507
-"sex_female, knee_l_pain_stairclimbing",knee_l_duration_val,0.1778846153846154,0.9487179487179488,2.2945736434108532
+"knee_l_pain_stairclimbing, sex_female",knee_l_duration_val,0.1778846153846154,0.9487179487179488,2.2945736434108532
 knee_r_morning_stiffness_duration,knee_r_duration_val,0.1201923076923077,0.8928571428571429,2.292768959435626
 "knee_r_exam_swelling_non_pitting, sex_female",knee_r_duration_val,0.1201923076923077,0.8928571428571429,2.292768959435626
-"knee_r_morning_stiffness, appetite_normal",knee_r_duration_val,0.1201923076923077,0.8928571428571429,2.292768959435626
+"appetite_normal, knee_r_morning_stiffness",knee_r_duration_val,0.1201923076923077,0.8928571428571429,2.292768959435626
 "knee_l_pain_stairclimbing, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.1346153846153846,0.8484848484848485,2.2920110192837466
-"knee_l_exam_creps_left, knee_l_pain_stairclimbing",knee_l_duration_val,0.17307692307692307,0.9473684210526316,2.291309669522644
+"knee_l_pain_stairclimbing, knee_l_exam_creps_left",knee_l_duration_val,0.17307692307692307,0.9473684210526316,2.291309669522644
 "knee_r_exam_tenderness_knee, urine_normal",knee_r_duration_val,0.1971153846153846,0.8913043478260869,2.2887815351583467
-"appetite_normal, knee_l_pain_walking",knee_l_duration_val,0.16826923076923078,0.9459459459459459,2.287869264613451
-"sex_female, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.15865384615384615,0.8461538461538461,2.2857142857142856
-"urine_normal, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.15865384615384615,0.8461538461538461,2.2857142857142856
-"stool_satisfactory, knee_l_pain_walking",knee_l_duration_val,0.16346153846153846,0.9444444444444445,2.2842377260981914
-"appetite_normal, knee_l_pain_stairclimbing",knee_l_duration_val,0.16346153846153846,0.9444444444444445,2.2842377260981914
-"knee_r_morning_stiffness, urine_normal",knee_r_exam_creps_right,0.1201923076923077,0.7575757575757577,2.283706631532719
+"knee_l_pain_walking, appetite_normal",knee_l_duration_val,0.16826923076923078,0.9459459459459459,2.287869264613451
+"knee_l_pain_stairclimbing, sex_female",knee_l_exam_creps_left,0.15865384615384615,0.8461538461538461,2.2857142857142856
+"knee_l_pain_stairclimbing, urine_normal",knee_l_exam_creps_left,0.15865384615384615,0.8461538461538461,2.2857142857142856
+"knee_l_pain_walking, stool_satisfactory",knee_l_duration_val,0.16346153846153846,0.9444444444444445,2.2842377260981914
+"knee_l_pain_stairclimbing, appetite_normal",knee_l_duration_val,0.16346153846153846,0.9444444444444445,2.2842377260981914
+"urine_normal, knee_r_morning_stiffness",knee_r_exam_creps_right,0.1201923076923077,0.7575757575757577,2.283706631532719
 knee_r_morning_stiffness,knee_r_duration_val,0.19230769230769232,0.888888888888889,2.2825788751714677
-"knee_r_diag_oa_knee, tongue_sama",knee_r_duration_val,0.19230769230769232,0.888888888888889,2.2825788751714677
+"tongue_sama, knee_r_diag_oa_knee",knee_r_duration_val,0.19230769230769232,0.888888888888889,2.2825788751714677
 "knee_l_exam_rom, sex_female",knee_l_duration_val,0.15384615384615385,0.9411764705882353,2.2763337893296853
 "tongue_sama, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.15384615384615385,0.8421052631578948,2.2747778537252223
-"knee_r_duration_val, tongue_sama",knee_r_exam_creps_right,0.23557692307692307,0.7538461538461538,2.272463768115942
+"tongue_sama, knee_r_duration_val",knee_r_exam_creps_right,0.23557692307692307,0.7538461538461538,2.272463768115942
 knee_l_pain_lowsitting,knee_l_duration_val,0.14903846153846154,0.9393939393939394,2.2720225510923187
 "stool_satisfactory, knee_l_reason_natural",knee_l_duration_val,0.14903846153846154,0.9393939393939394,2.2720225510923187
 "knee_r_exam_creps_right, sex_female",knee_r_duration_val,0.22115384615384615,0.8846153846153846,2.271604938271605
-"stool_satisfactory, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.125,0.8387096774193549,2.265605362379556
+"knee_l_pain_stairclimbing, stool_satisfactory",knee_l_exam_creps_left,0.125,0.8387096774193549,2.265605362379556
 knee_l_pain_stairclimbing,knee_l_duration_val,0.21153846153846154,0.9361702127659575,2.264225630875804
-"urine_normal, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.1971153846153846,0.8367346938775511,2.260270341902995
-"knee_l_pain_walking, knee_l_morning_stiffness",knee_l_duration_val,0.1346153846153846,0.9333333333333333,2.2573643410852715
-"knee_r_exam_tenderness_knee, knee_r_exam_creps_right",knee_r_duration_val,0.20673076923076922,0.8775510204081632,2.253464348702444
+"knee_l_diag_oa_knee, urine_normal",knee_l_exam_creps_left,0.1971153846153846,0.8367346938775511,2.260270341902995
+"knee_l_morning_stiffness, knee_l_pain_walking",knee_l_duration_val,0.1346153846153846,0.9333333333333333,2.2573643410852715
+"knee_r_exam_creps_right, knee_r_exam_tenderness_knee",knee_r_duration_val,0.20673076923076922,0.8775510204081632,2.253464348702444
 "knee_l_exam_tenderness_knee, knee_l_pain_walking",knee_l_duration_val,0.12980769230769232,0.9310344827586208,2.2518043303929436
 "urine_normal, knee_l_reason_natural",knee_l_exam_creps_left,0.16826923076923078,0.8333333333333334,2.2510822510822512
 "knee_l_exam_rom, appetite_normal",knee_l_duration_val,0.125,0.9285714285714286,2.2458471760797343
-"medication_none, knee_l_diag_oa_knee",knee_l_duration_val,0.125,0.9285714285714286,2.2458471760797343
+"knee_l_diag_oa_knee, medication_none",knee_l_duration_val,0.125,0.9285714285714286,2.2458471760797343
 knee_l_pain_walking,knee_l_duration_val,0.2403846153846154,0.9259259259259258,2.239448751076658
 "sex_female, knee_l_reason_natural",knee_l_duration_val,0.1778846153846154,0.9249999999999999,2.2372093023255815
-"sex_female, knee_l_diag_oa_knee",knee_l_exam_creps_left,0.18269230769230768,0.8260869565217391,2.2315076228119706
+"knee_l_diag_oa_knee, sex_female",knee_l_exam_creps_left,0.18269230769230768,0.8260869565217391,2.2315076228119706
 "sex_female, knee_l_reason_natural",knee_l_exam_creps_left,0.15865384615384615,0.825,2.228571428571428
-"knee_r_exam_tenderness_knee, knee_r_exam_swelling_non_pitting",knee_r_duration_val,0.125,0.8666666666666667,2.225514403292181
+"knee_r_exam_swelling_non_pitting, knee_r_exam_tenderness_knee",knee_r_duration_val,0.125,0.8666666666666667,2.225514403292181
 "knee_r_exam_tenderness_knee, sex_female",knee_r_duration_val,0.1875,0.8666666666666666,2.225514403292181
 "knee_l_exam_rom, sex_female",knee_l_exam_creps_left,0.1346153846153846,0.8235294117647058,2.2245989304812834
-"nidra_disturbed, knee_l_duration_val",knee_l_exam_creps_left,0.1346153846153846,0.8235294117647058,2.2245989304812834
+"knee_l_duration_val, nidra_disturbed",knee_l_exam_creps_left,0.1346153846153846,0.8235294117647058,2.2245989304812834
 "stool_satisfactory, knee_r_exam_tenderness_knee",knee_r_duration_val,0.15384615384615385,0.8648648648648649,2.2208875542208877
-"knee_r_diag_oa_knee, sex_female",knee_r_duration_val,0.18269230769230768,0.8636363636363636,2.217732884399551
-"knee_l_exam_creps_left, knee_l_diag_oa_knee",knee_l_duration_val,0.21153846153846154,0.9166666666666666,2.2170542635658914
+"sex_female, knee_r_diag_oa_knee",knee_r_duration_val,0.18269230769230768,0.8636363636363636,2.217732884399551
+"knee_l_diag_oa_knee, knee_l_exam_creps_left",knee_l_duration_val,0.21153846153846154,0.9166666666666666,2.2170542635658914
 "tongue_sama, knee_l_reason_natural",knee_l_exam_creps_left,0.1971153846153846,0.82,2.2150649350649347
 "stool_satisfactory, knee_r_diag_oa_knee",knee_r_duration_val,0.14903846153846154,0.8611111111111112,2.2112482853223594
 "stool_satisfactory, knee_l_reason_natural",knee_l_exam_creps_left,0.12980769230769232,0.8181818181818183,2.210153482880756
 "knee_l_exam_rom, urine_normal",knee_l_exam_creps_left,0.12980769230769232,0.8181818181818183,2.210153482880756
 knee_l_exam_rom,knee_l_exam_creps_left,0.17307692307692307,0.8181818181818181,2.2101534828807554
-"knee_l_duration_val, knee_l_pain_stairclimbing",knee_l_exam_creps_left,0.17307692307692307,0.8181818181818181,2.2101534828807554
+"knee_l_pain_stairclimbing, knee_l_duration_val",knee_l_exam_creps_left,0.17307692307692307,0.8181818181818181,2.2101534828807554
 "knee_r_exam_creps_right, tongue_sama",knee_r_duration_val,0.23557692307692307,0.8596491228070174,2.2074940437513533
-"knee_r_exam_tenderness_knee, tongue_sama",knee_r_duration_val,0.20192307692307693,0.8571428571428572,2.2010582010582014
-"appetite_normal, knee_r_exam_creps_right",knee_r_duration_val,0.17307692307692307,0.8571428571428571,2.201058201058201
+"tongue_sama, knee_r_exam_tenderness_knee",knee_r_duration_val,0.20192307692307693,0.8571428571428572,2.2010582010582014
+"knee_r_exam_creps_right, appetite_normal",knee_r_duration_val,0.17307692307692307,0.8571428571428571,2.201058201058201
 knee_l_diag_oa_knee,knee_l_exam_creps_left,0.23076923076923078,0.8135593220338984,2.1976667400396215
 "urine_normal, knee_l_reason_natural",knee_l_duration_val,0.18269230769230768,0.9047619047619047,2.1882613510520486
 knee_r_diag_oa_knee,knee_r_duration_val,0.22115384615384615,0.8518518518518517,2.187471422039323
@@ -405,59 +405,59 @@ knee_r_exam_swelling_non_pitting,knee_r_duration_val,0.1346153846153846,0.848484
 knee_r_reason_natural,knee_r_duration_val,0.1875,0.8478260869565217,2.177133655394525
 knee_l_morning_stiffness_duration,knee_l_duration_val,0.12980769230769232,0.9000000000000001,2.176744186046512
 "tongue_sama, knee_l_exam_rom_left_pain",knee_l_duration_val,0.12980769230769232,0.9000000000000001,2.176744186046512
-"knee_l_exam_creps_left, medication_none",knee_l_duration_val,0.12980769230769232,0.9000000000000001,2.176744186046512
-"knee_l_exam_creps_left, knee_l_exam_rom_left_pain",knee_l_duration_val,0.12980769230769232,0.9000000000000001,2.176744186046512
+"medication_none, knee_l_exam_creps_left",knee_l_duration_val,0.12980769230769232,0.9000000000000001,2.176744186046512
+"knee_l_exam_rom_left_pain, knee_l_exam_creps_left",knee_l_duration_val,0.12980769230769232,0.9000000000000001,2.176744186046512
 "appetite_normal, knee_l_reason_natural",knee_l_duration_val,0.16826923076923078,0.8974358974358975,2.170542635658915
 knee_r_exam_tenderness_knee,knee_r_duration_val,0.23557692307692307,0.8448275862068965,2.1694338016177093
-"knee_l_exam_creps_left, sex_female",knee_l_duration_val,0.25,0.896551724137931,2.1684041700080194
-"nidra_disturbed, knee_r_exam_creps_right",knee_r_duration_val,0.12980769230769232,0.84375,2.1666666666666665
+"sex_female, knee_l_exam_creps_left",knee_l_duration_val,0.25,0.896551724137931,2.1684041700080194
+"knee_r_exam_creps_right, nidra_disturbed",knee_r_duration_val,0.12980769230769232,0.84375,2.1666666666666665
 knee_r_exam_creps_right,knee_r_duration_val,0.27884615384615385,0.8405797101449276,2.158525675433888
-"stool_satisfactory, knee_l_diag_oa_knee",knee_l_duration_val,0.15865384615384615,0.8918918918918918,2.1571338780641103
-"sex_female, knee_l_diag_oa_knee",knee_l_duration_val,0.1971153846153846,0.8913043478260869,2.155712841253792
+"knee_l_diag_oa_knee, stool_satisfactory",knee_l_duration_val,0.15865384615384615,0.8918918918918918,2.1571338780641103
+"knee_l_diag_oa_knee, sex_female",knee_l_duration_val,0.1971153846153846,0.8913043478260869,2.155712841253792
 "stool_satisfactory, knee_l_exam_creps_left",knee_l_duration_val,0.19230769230769232,0.888888888888889,2.149870801033592
 "knee_l_exam_tenderness_knee, urine_normal",knee_l_duration_val,0.19230769230769232,0.888888888888889,2.149870801033592
 "knee_l_morning_stiffness, tongue_sama",knee_l_duration_val,0.19230769230769232,0.888888888888889,2.149870801033592
-"knee_l_exam_creps_left, knee_l_morning_stiffness",knee_l_duration_val,0.15384615384615385,0.888888888888889,2.149870801033592
+"knee_l_morning_stiffness, knee_l_exam_creps_left",knee_l_duration_val,0.15384615384615385,0.888888888888889,2.149870801033592
 knee_l_exam_rom,knee_l_duration_val,0.1875,0.8863636363636364,2.1437632135306557
 knee_l_reason_natural,knee_l_duration_val,0.22115384615384615,0.8846153846153846,2.1395348837209305
 "tongue_sama, knee_l_diag_oa_knee",knee_l_duration_val,0.22115384615384615,0.8846153846153846,2.1395348837209305
-"appetite_normal, knee_l_morning_stiffness",knee_l_duration_val,0.13942307692307693,0.8787878787878789,2.1254404510218468
-"appetite_normal, knee_l_diag_oa_knee",knee_l_duration_val,0.16826923076923078,0.875,2.116279069767442
+"knee_l_morning_stiffness, appetite_normal",knee_l_duration_val,0.13942307692307693,0.8787878787878789,2.1254404510218468
+"knee_l_diag_oa_knee, appetite_normal",knee_l_duration_val,0.16826923076923078,0.875,2.116279069767442
 knee_l_exam_rom_left_pain,knee_l_duration_val,0.1346153846153846,0.8749999999999999,2.1162790697674416
 "knee_l_exam_tenderness_knee, sex_female",knee_l_duration_val,0.1971153846153846,0.8723404255319148,2.1098466105888174
-"knee_l_exam_creps_left, nidra_sound",knee_l_duration_val,0.12980769230769232,0.870967741935484,2.106526631657915
+"nidra_sound, knee_l_exam_creps_left",knee_l_duration_val,0.12980769230769232,0.870967741935484,2.106526631657915
 "knee_l_duration_val, urine_normal",knee_l_exam_creps_left,0.25,0.7761194029850745,2.096530335336305
-"knee_l_exam_tenderness_knee, knee_l_morning_stiffness",knee_l_duration_val,0.125,0.8666666666666667,2.096124031007752
+"knee_l_morning_stiffness, knee_l_exam_tenderness_knee",knee_l_duration_val,0.125,0.8666666666666667,2.096124031007752
 knee_l_morning_stiffness,knee_l_duration_val,0.21634615384615385,0.8653846153846154,2.0930232558139537
-"sex_female, knee_l_exam_swelling_non_pitting",knee_l_duration_val,0.1201923076923077,0.8620689655172413,2.0850040096230953
-"knee_l_exam_creps_left, knee_l_exam_swelling_non_pitting",knee_l_duration_val,0.1201923076923077,0.8620689655172413,2.0850040096230953
-"stool_satisfactory, knee_l_exam_tenderness_knee",knee_l_duration_val,0.14903846153846154,0.8611111111111112,2.0826873385012923
-"knee_l_exam_creps_left, appetite_normal",knee_l_duration_val,0.20192307692307693,0.8571428571428572,2.073089700996678
+"knee_l_exam_swelling_non_pitting, sex_female",knee_l_duration_val,0.1201923076923077,0.8620689655172413,2.0850040096230953
+"knee_l_exam_swelling_non_pitting, knee_l_exam_creps_left",knee_l_duration_val,0.1201923076923077,0.8620689655172413,2.0850040096230953
+"knee_l_exam_tenderness_knee, stool_satisfactory",knee_l_duration_val,0.14903846153846154,0.8611111111111112,2.0826873385012923
+"appetite_normal, knee_l_exam_creps_left",knee_l_duration_val,0.20192307692307693,0.8571428571428572,2.073089700996678
 "sex_female, knee_l_duration_val",knee_l_exam_creps_left,0.25,0.7647058823529411,2.065699006875477
-"knee_l_duration_val, tongue_sama",knee_l_exam_creps_left,0.2644230769230769,0.763888888888889,2.0634920634920637
-"knee_l_exam_creps_left, urine_normal",knee_l_duration_val,0.25,0.8524590163934426,2.061761341974838
+"tongue_sama, knee_l_duration_val",knee_l_exam_creps_left,0.2644230769230769,0.763888888888889,2.0634920634920637
+"urine_normal, knee_l_exam_creps_left",knee_l_duration_val,0.25,0.8524590163934426,2.061761341974838
 knee_l_diag_oa_knee,knee_l_duration_val,0.2403846153846154,0.8474576271186441,2.0496649586125346
-"appetite_normal, knee_l_exam_tenderness_knee",knee_l_duration_val,0.15865384615384615,0.8461538461538461,2.046511627906977
-"knee_l_exam_creps_left, tongue_sama",knee_l_duration_val,0.2644230769230769,0.8461538461538461,2.046511627906977
+"knee_l_exam_tenderness_knee, appetite_normal",knee_l_duration_val,0.15865384615384615,0.8461538461538461,2.046511627906977
+"tongue_sama, knee_l_exam_creps_left",knee_l_duration_val,0.2644230769230769,0.8461538461538461,2.046511627906977
 "acidity, knee_l_duration_val",knee_l_exam_creps_left,0.1201923076923077,0.7575757575757577,2.046438410074774
 "stool_satisfactory, knee_l_duration_val",knee_l_exam_creps_left,0.19230769230769232,0.7547169811320755,2.038716000980152
-"knee_l_exam_creps_left, knee_l_exam_tenderness_knee",knee_l_duration_val,0.20192307692307693,0.84,2.0316279069767442
+"knee_l_exam_tenderness_knee, knee_l_exam_creps_left",knee_l_duration_val,0.20192307692307693,0.84,2.0316279069767442
 "knee_l_exam_tenderness_knee, tongue_sama",knee_l_duration_val,0.1875,0.8297872340425532,2.006927263730826
 knee_l_exam_tenderness_knee,knee_l_duration_val,0.22596153846153846,0.8245614035087718,1.9942880456956342
-"lumbar_exam_tenderness, acidity",gas,0.1201923076923077,0.9259259259259258,1.9854906452844594
-"stool_unsatisfactory, acidity",gas,0.1778846153846154,0.9249999999999999,1.983505154639175
+"acidity, lumbar_exam_tenderness",gas,0.1201923076923077,0.9259259259259258,1.9854906452844594
+"acidity, stool_unsatisfactory",gas,0.1778846153846154,0.9249999999999999,1.983505154639175
 knee_l_exam_creps_left,knee_l_duration_val,0.30288461538461536,0.8181818181818181,1.9788583509513742
 "knee_present, nidra_sound",knee_l_duration_val,0.19230769230769232,0.8,1.9348837209302328
 knee_l_exam_swelling_non_pitting,knee_l_duration_val,0.12980769230769232,0.7941176470588236,1.9206566347469223
 "lumbar_present, acidity",gas,0.14903846153846154,0.8611111111111112,1.8465063001145476
-"nidra_disturbed, acidity",gas,0.16346153846153846,0.85,1.822680412371134
-"medication_ongoing, acidity",gas,0.20673076923076922,0.8113207547169812,1.7397393503209493
-"stool_unsatisfactory, lumbar_present",gas,0.1346153846153846,0.7999999999999999,1.715463917525773
-"acidity, tongue_sama",gas,0.25961538461538464,0.7826086956521741,1.6781712236665176
-"knee_r_duration_val, nidra_sound",stool_satisfactory,0.1346153846153846,0.9032258064516129,1.6625749357693407
+"acidity, nidra_disturbed",gas,0.16346153846153846,0.85,1.822680412371134
+"acidity, medication_ongoing",gas,0.20673076923076922,0.8113207547169812,1.7397393503209493
+"lumbar_present, stool_unsatisfactory",gas,0.1346153846153846,0.7999999999999999,1.715463917525773
+"tongue_sama, acidity",gas,0.25961538461538464,0.7826086956521741,1.6781712236665176
+"nidra_sound, knee_r_duration_val",stool_satisfactory,0.1346153846153846,0.9032258064516129,1.6625749357693407
 acidity,gas,0.28846153846153844,0.7692307692307692,1.6494845360824741
-"stool_unsatisfactory, tongue_sama",gas,0.25,0.7647058823529411,1.6397816858702243
-"stool_unsatisfactory, nidra_disturbed",gas,0.14903846153846154,0.7560975609756098,1.6213226049786271
-"nidra_sound, knee_l_duration_val",stool_satisfactory,0.15865384615384615,0.825,1.5185840707964602
-"comorb_other, lumbar_present",medication_ongoing,0.1778846153846154,0.9736842105263159,1.511390416339356
+"tongue_sama, stool_unsatisfactory",gas,0.25,0.7647058823529411,1.6397816858702243
+"nidra_disturbed, stool_unsatisfactory",gas,0.14903846153846154,0.7560975609756098,1.6213226049786271
+"knee_l_duration_val, nidra_sound",stool_satisfactory,0.15865384615384615,0.825,1.5185840707964602
+"lumbar_present, comorb_other",medication_ongoing,0.1778846153846154,0.9736842105263159,1.511390416339356
 comorb_other_duration_days,medication_ongoing,0.13942307692307693,0.9666666666666668,1.500497512437811

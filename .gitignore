@@ -2,3 +2,9 @@
 venv/
 .venv/
 env/
+
+# Ignore reproducible files
+flattened_patients.csv
+pruned_clinical_data.csv
+scored_patients.csv
+final_actionable_insights_clean.csv

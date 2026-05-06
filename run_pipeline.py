@@ -27,7 +27,8 @@ pipeline = [
     "NewdDataFetch.py",
     "Pravaayu_TransformerScript.py",
     "Pruning.py",
-    "Apriori.py"
+    "Apriori.py",
+    "scoring.py"
 ]
 
 for step in pipeline:
