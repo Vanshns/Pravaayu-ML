@@ -1158,7 +1158,7 @@ Always verify feature names.
 
 ---
 
-# 11. Important Design Decisions
+# 10. Important Design Decisions
 
 ---
 
@@ -1198,7 +1198,7 @@ Without pruning:
 
 ---
 
-# 13. Important Notes
+# 11. Important Notes
 
 * DO NOT manually edit generated CSVs.
 * Always regenerate outputs through scripts.
@@ -1209,7 +1209,7 @@ Without pruning:
 
 ---
 
-# 14. Quick Start Checklist
+# 12. Quick Start Checklist
 
 ## Setup
 
@@ -1239,7 +1239,7 @@ scored_patients.csv
 
 ---
 
-# 15. Final Advice for Whoever Continues This Project
+# 13. Final Advice for Whoever Continues This Project
 
 The most critical part of the system is:
 
